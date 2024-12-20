@@ -63,7 +63,6 @@ This document compares the key differences between the boilerplate code (Ahmed's
 4. **Enemy Movement**:
    - The Boilerplate includes movement for enemies (horizontal and vertical), while Ateeq's update does not have enemy movement.
 
-This table summarizes the changes and differences between Ahmed's Boilerplate and Ateeq's update for a clearer understanding of code behavior and design choices.
 
 
 ## How to Play
