@@ -34,9 +34,9 @@ This is a customized version of the classic Space Invaders game, featuring uniqu
 
 # Code Comparison: Boilerplate vs Ateeq's Update
 
-This document compares the key differences between the boilerplate code (Ahmed's code) and Ateeq's update, highlighting changes in behavior, mechanics, and structure.
+The key differences between the boilerplate code and new update, highlighting changes in behavior, mechanics, and structure.
 
-| **Aspect**                           | **Boilerplate **                                                             | **Ateeq's Update **                                                                                          |
+| **Aspect**                           | **Boilerplate**                                                             | **Ateeq's Update**                                                                                          |
 |--------------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | **Projectile Movement**              | Lasers can move both horizontally and vertically based on `horizontalValue` and `verticalValue`. | Projectiles move only vertically using `verticalValue`.                                                                  |
 | **Projectile Lifetime Management**   | Uses `Destroy(gameObject, destroyAfter)` for laser lifetime.                                 | Same method (`Destroy(gameObject, destroyAfter)`), but no projectile pooling mechanism.                                  |
@@ -52,16 +52,16 @@ This document compares the key differences between the boilerplate code (Ahmed's
 
 ## Key Differences:
 1. **Projectile Movement**:
-   - The Boilerplate code allows both horizontal and vertical movement for lasers, while Ateeq’s update limits the projectiles to vertical movement.
+   - The Boilerplate code allows both horizontal and vertical movement for lasers, while new update limits the projectiles to vertical movement.
    
 2. **Shooting Mechanism**:
-   - In the Boilerplate, enemies shoot randomly, while in Ateeq's update, the player shoots projectiles upon pressing a button.
+   - In the Boilerplate, enemies shoot randomly, while in new update, the player shoots projectiles upon pressing a button.
 
 3. **Laser Behavior**:
-   - Both codes handle laser destruction after a time delay, but the Boilerplate adds random enemy shooting, while Ateeq’s update only focuses on player firing projectiles.
+   - Both codes handle laser destruction after a time delay, but the Boilerplate adds random enemy shooting, while new update only focuses on player firing projectiles.
 
 4. **Enemy Movement**:
-   - The Boilerplate includes movement for enemies (horizontal and vertical), while Ateeq's update does not have enemy movement.
+   - The Boilerplate includes movement for enemies (horizontal and vertical), while new update does not have enemy movement.
 
 
 
